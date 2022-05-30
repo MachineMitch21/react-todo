@@ -22,11 +22,13 @@ export class HamburgerButton extends React.Component {
 
   render() {
     return (
-      <div className="HamburgerButton">
-        <span className="HamburgerButton-Top"></span>
-        <span className="HamburgerButton-Middle"></span>
-        <span className="HamburgerButton-Bottom"></span>
-      </div>
+      <label htmlFor="navCheck">
+        <div className="HamburgerButton">
+          <span className="HamburgerButton-Top"></span>
+          <span className="HamburgerButton-Middle"></span>
+          <span className="HamburgerButton-Bottom"></span>
+        </div>
+      </label>
     );
   }
 }
@@ -57,6 +59,7 @@ export class Navigation extends React.Component {
   render() {
     return (
       <div className="Navigation">
+        <input type="checkbox" name="" id="navCheck" />
         <div className="NavBar">
           <HamburgerButton />
         </div>
