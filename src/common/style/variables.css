@@ -1,0 +1,12 @@
+:root {
+  /* Color Scheme */
+  --primary: #242f40;
+  --accent: #7ae7c7;
+  --dark: #363636;
+  --light: #fcb0b3;
+  --white: #ffffff;
+
+  /* Navigation */
+  --navWidth: 100%;
+  --navItemWidth: 100%;
+}
